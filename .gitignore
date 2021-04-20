@@ -2,6 +2,10 @@
 dogelib.egg-info/
 dist/
 
+# Python
+__pycache__/
+*.pyc
+
 # Testing
 .pytest_cache/
 .coverage
