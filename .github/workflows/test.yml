@@ -29,3 +29,7 @@ jobs:
         poetry-version: 1.1.6
     - name: Install dependencies
       run: poetry install
+
+    - name: Test with Pytest
+      run: bash bin.sh test
+      shell: bash
