@@ -27,6 +27,9 @@ jobs:
       uses: abatilo/actions-poetry@v2.0.0
       with:
         poetry-version: 1.1.6
+    
+    - name: Install dependencies
+      run: poetry install
 
     - name: Test with Pytest
       run: bash bin.sh test
