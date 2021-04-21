@@ -31,5 +31,4 @@ jobs:
       run: poetry install
 
     - name: Test with Pytest
-      run: bash bin.sh test
-      shell: bash
+      run: pytest
